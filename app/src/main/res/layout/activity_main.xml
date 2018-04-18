@@ -41,12 +41,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/write_button"
-        android:text="Write to Cloud"/>
+        android:text="Write to Cloud"
+        android:onClick="writeToCloud"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/read_button"
-        android:text="Read from Cloud"/>
+        android:text="Read from Cloud"
+        android:onClick="readFromCloud"/>
 
 </LinearLayout>
